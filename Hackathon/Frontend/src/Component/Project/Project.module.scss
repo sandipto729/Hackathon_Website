@@ -1,0 +1,33 @@
+.projectContainer {
+    padding: 20px;
+}
+
+.projectTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+
+    th, td {
+        border: 1px solid #ccc;
+        padding: 10px;
+        text-align: left;
+    }
+
+    th {
+        background-color: #f4f4f4;
+        color: black;
+    }
+}
+
+.signupButton {
+    background-color: #e94560; // Button color
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+    &:hover {
+        background-color: #d03d50; // Darker shade on hover
+    }
+}

@@ -1,0 +1,124 @@
+.contactPage {
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+    font-family: Arial, sans-serif;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .header {
+        text-align: center;
+        margin-bottom: 2rem;
+
+        h1 {
+            font-size: 2.5rem;
+            color: #ff5722;
+            margin-bottom: 0.5rem;
+        }
+
+        p {
+            font-size: 1.2rem;
+        }
+    }
+
+    .contactFormSection {
+        width: 100%;
+        max-width: 600px;
+        margin-bottom: 3rem;
+        text-align: center;
+
+        h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            color: #ff5722;
+        }
+
+        .contactForm {
+            display: flex;
+            flex-direction: column;
+
+            .inputGroup {
+                display: flex;
+                flex-direction: column;
+                margin-bottom: 1rem;
+
+                label {
+                    font-size: 1rem;
+                    margin-bottom: 0.3rem;
+                    color: #ff5722;
+                }
+
+                input,
+                textarea {
+                    padding: 0.8rem;
+                    border: none;
+                    border-radius: 5px;
+                    background-color: #333;
+                    color: #e0e0e0;
+                    font-size: 1rem;
+                }
+
+                input::placeholder,
+                textarea::placeholder {
+                    color: #888;
+                }
+
+                input:focus,
+                textarea:focus {
+                    outline: 2px solid #ff5722;
+                }
+            }
+
+            .submitButton {
+                padding: 0.8rem;
+                background-color: #ff5722;
+                color: #fff;
+                font-size: 1rem;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                transition: background 0.3s;
+
+                &:hover {
+                    background-color: #ff784e;
+                }
+            }
+        }
+    }
+
+    .contactInfo {
+        width: 100%;
+        max-width: 600px;
+        text-align: center;
+
+        h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            color: #ff5722;
+        }
+
+        .infoItems {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+
+            .infoItem {
+                background-color: #333;
+                padding: 1.2rem;
+                border-radius: 5px;
+
+                h3 {
+                    font-size: 1.2rem;
+                    color: #ff5722;
+                    margin-bottom: 0.3rem;
+                }
+
+                p {
+                    font-size: 1rem;
+                    color: #e0e0e0;
+                }
+            }
+        }
+    }
+}

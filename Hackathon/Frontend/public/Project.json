@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Hackathon 2024",
+        "description": "An exciting hackathon where developers come together to create innovative solutions.",
+        "totalSignUp": 150
+    },
+    {
+        "name": "AI Challenge",
+        "description": "A hackathon focused on artificial intelligence and machine learning projects.",
+        "totalSignUp": 200
+    },
+    {
+        "name": "Web Dev Bootcamp",
+        "description": "A collaborative event for web developers to enhance their skills and build amazing applications.",
+        "totalSignUp": 100
+    },
+    {
+        "name": "Mobile App Sprint",
+        "description": "Join us for a weekend of mobile app development and innovation.",
+        "totalSignUp": 75
+    },
+    {
+        "name": "IoT Hackathon",
+        "description": "Explore the Internet of Things and create groundbreaking IoT solutions.",
+        "totalSignUp": 50
+    }
+]

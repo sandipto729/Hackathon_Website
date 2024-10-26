@@ -1,0 +1,87 @@
+.loginContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #000; 
+    color: #fff;
+    padding: 20px;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+  }
+  
+  .inputGroup {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+  
+  label {
+    margin-bottom: 5px;
+    font-size: 14px;
+  }
+  
+  .input {
+    padding: 10px;
+    border: 1px solid #444; 
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #222; 
+    color: #fff;
+    transition: border 0.3s;
+  }
+  
+  .input:focus {
+    border-color: #f39c12; 
+    outline: none;
+  }
+  
+  .errorInput {
+    border-color: #e74c3c; 
+  }
+  
+  .errorMessage {
+    color: #e74c3c;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  
+  .submitButton {
+    padding: 10px;
+    background-color: #f39c12; 
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .submitButton:hover {
+    background-color: #e67e22; 
+  }
+  
+  .signupPrompt {
+    margin-top: 15px;
+    font-size: 14px;
+  }
+  
+  .signupLink {
+    color: #f39c12; 
+    text-decoration: none;
+  }
+  
+  .signupLink:hover {
+    text-decoration: underline; 
+  }
+  

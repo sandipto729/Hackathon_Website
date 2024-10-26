@@ -1,0 +1,149 @@
+.eventPage {
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .banner {
+        text-align: center;
+        padding: 3rem 1rem;
+        background-color: #252525;
+        color: #ffffff;
+        
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        p {
+            font-size: 1.2rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .registerButton {
+            padding: 0.8rem 1.5rem;
+            background-color: #ff5722;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            font-size: 1rem;
+            border-radius: 5px;
+            transition: background 0.3s;
+
+            &:hover {
+                background-color: #ff784e;
+            }
+        }
+    }
+
+    .schedule {
+        width: 90%;
+        max-width: 800px;
+        padding: 2rem;
+        text-align: center;
+
+        h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            color: #ff5722;
+        }
+
+        .timeline {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+
+            .timelineItem {
+                background-color: #333;
+                padding: 1rem;
+                margin: 0.5rem 0;
+                width: 100%;
+                border-radius: 5px;
+                color: #e0e0e0;
+
+                span {
+                    font-weight: bold;
+                    color: #ff5722;
+                }
+            }
+        }
+    }
+
+    .prizes {
+        width: 90%;
+        max-width: 800px;
+        padding: 2rem;
+        text-align: center;
+
+        h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            color: #ff5722;
+        }
+
+        .prizeCards {
+            display: flex;
+            justify-content: space-around;
+
+            .prizeCard {
+                background-color: #333;
+                padding: 1.5rem;
+                border-radius: 8px;
+                width: 30%;
+                
+                h3 {
+                    color: #ff5722;
+                    font-size: 1.5rem;
+                }
+
+                p {
+                    color: #e0e0e0;
+                }
+            }
+        }
+    }
+
+    .speakers {
+        width: 90%;
+        max-width: 800px;
+        padding: 2rem;
+        text-align: center;
+
+        h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            color: #ff5722;
+        }
+
+        .speakerList {
+            display: flex;
+            justify-content: space-around;
+
+            .speaker {
+                text-align: center;
+                padding: 1rem;
+                background-color: #333;
+                border-radius: 8px;
+                width: 45%;
+                
+                img {
+                    width: 100px;
+                    height: 100px;
+                    border-radius: 50%;
+                    margin-bottom: 0.5rem;
+                }
+
+                h3 {
+                    font-size: 1.2rem;
+                    color: #ff5722;
+                }
+
+                p {
+                    color: #e0e0e0;
+                }
+            }
+        }
+    }
+}
