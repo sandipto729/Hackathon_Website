@@ -17,10 +17,11 @@ app.use(cookieParser());
 
 // CORS configuration
 const corsOptions = {
-  origin: 'https://hackathon-website-8uyk.vercel.app/', 
+  origin: 'https://hackathon-website-8uyk.vercel.app', // remove trailing slash
   methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
-  credentials: true, 
+  credentials: true,
 };
+
 
 // Middleware
 app.use(cors(corsOptions));
